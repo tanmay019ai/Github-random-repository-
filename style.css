@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.random
+{
+    margin-top: 200px;
+    margin-left: 600px;
+}
+#Github
+{
+    font-size: 50px;
+    position: fixed;
+}
+h1
+{
+    position: fixed;
+    margin-left: 70px;
+    margin-top: 7px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#lang
+{
+    margin-top: 100px;
+    font-size: 20px;
+    width: 450px;
+    height: 70px;
+    border-radius: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 2px solid black;
+}
+.area
+{
+    margin-top: 20px;
+    background-color: rgb(185, 195, 195, 0.5);
+    height: 200px;
+    width: 450px;
+    border-radius: 10px;
+    text-align: center;
+    align-self: center;
+    align-content: center;
+}
+#para
+{
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.repo-card {
+    background-color: #fff;
+    border: 2px solid black;
+    height: 200px;
+    width: 450px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.repo-card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.repo-card p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.repo-details {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+#btn
+{
+    height: 50px;
+    width: 450px;
+    border-radius: 10px;
+    background-color: black;
+    font-size: large;
+    color: white;
+    margin-top: 20px;
+}
+@media screen and (max-width: 600px) {
+    .repo-card {
+        width: 100%;
+    }
+    #lang
+    {
+        width: 100%;
+    }
+    .area
+    {
+        width: 100%;
+    }
+    #btn
+    {
+        width: 100%;
+    }
+    .random
+    {
+        margin-top: 100px;
+        margin-left: 100px;
+    }
+    #Github
+    {
+        margin-left: -20px;
+        font-size: 30px;
+        position: fixed;
+    }
+    h1
+    {
+        position: fixed;
+        margin-left: 20px;
+        margin-top: -20px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    #lang
+    {
+        margin-top: 150px;
+        font-size: 20px;
+        width: 100%;
+        height: 70px;
+        margin-left: -50px;
+        border-radius: 10px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        border: 2px solid black;
+    }
+    .area
+    {
+        margin-top: 50px;
+        margin-left: -50px;
+        background-color: rgb(185, 195, 195, 0.5);
+        height: 200px;
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        align-self: center;
+        align-content: center;
+    }
+    #para
+    {
+        font-size: 20px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .repo-card {
+        background-color: #fff;
+        border: 2px solid black;
+        height: 200px;
+        width: 100%;
+        border-radius: 10px;
+        text-align: left;
+    }
+
+    .repo-card h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .repo-card p {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .repo-details {
+        display: flex;
+        justify-content: space-between;
+        font-size: 14px;
+    }
+    #btn
+    {
+        margin-left: -50px;
+        height: 50px;
+        width: 100%;
+        border-radius: 10px;
+        background-color: black;
+        font-size: large;
+        color: white;
+        margin-top: 20px;
+    }
+    
+    
+}
